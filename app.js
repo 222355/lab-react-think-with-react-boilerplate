@@ -14,7 +14,6 @@ class ReactContainer extends React.Component{
           React.createElement(`div`,null,`Let's rock and roll with classes`)
           );
       }
-    
   }
   ReactDOM.render(React.createElement(ReactContainer),container);
 
