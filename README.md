@@ -52,7 +52,6 @@ You have included the react libraries to your javascript file. But we have to in
    <!-- Include the react element -->
     <script src="./app.js"></script>
 </body>
-
 ```
 
 You're ready to move to the next iteration. :raised_hands:
@@ -112,7 +111,6 @@ Let's rock and roll
 ```
 class ReactContainer extends React.Component{
   // constructor - to initialize the state 
-
   // render method to render the react dom 
     render(){
         return React.createElement(`div`,null,`Hey Kalvians`,
@@ -154,7 +152,6 @@ Now you can use JSX in any ```<script>``` tag by adding ```type="text/babel"``` 
          </div> )
       };  
   }
-
 const container = document.getElementById('react-container');
 // Direclty pass the component to render
 ReactDOM.render(<ReactContainer/>,container);    
